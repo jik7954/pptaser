@@ -1,0 +1,54 @@
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripPos     = Vector3.new(1, -0, -0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripForward     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripRight     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripUp     = Vector3.new(1, 3, 11)
+	game.Players.LocalPlayer.Backpack["[Taser]"].Parent = game.Players.LocalPlayer.Character
+
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripPos     = Vector3.new(-0, -0, -0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripForward     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripRight     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripUp     = Vector3.new(1, 3, 11)
+	game.Players.LocalPlayer.Backpack["[Taser]"].Parent = game.Players.LocalPlayer.Character
+
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripPos     = Vector3.new(-1, -0, -0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripForward     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripRight     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripUp     = Vector3.new(1, 3, 11)
+	game.Players.LocalPlayer.Backpack["[Taser]"].Parent = game.Players.LocalPlayer.Character
+
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripPos     = Vector3.new(-0, -0, -1)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripForward     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripRight     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripUp     = Vector3.new(1, 3, 11)
+	game.Players.LocalPlayer.Backpack["[Taser]"].Parent = game.Players.LocalPlayer.Character
+
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripPos     = Vector3.new(-0, -0, -2)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripForward     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripRight     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripUp     = Vector3.new(1, 3, 11)
+	game.Players.LocalPlayer.Backpack["[Taser]"].Parent = game.Players.LocalPlayer.Character
+
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripPos     = Vector3.new(-0, -0, -3)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripForward     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripRight     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripUp     = Vector3.new(1, 3, 11)
+	game.Players.LocalPlayer.Backpack["[Taser]"].Parent = game.Players.LocalPlayer.Character
+
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripPos     = Vector3.new(-0, -0, -4)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripForward     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripRight     = Vector3.new(0, 0, 0)
+	game.Players.LocalPlayer.Backpack["[Taser]"].GripUp     = Vector3.new(1, 3, 11)
+	game.Players.LocalPlayer.Backpack["[Taser]"].Parent = game.Players.LocalPlayer.Character
+
+
+
+
+	wait(1)
+	_G.taser = true
+	repeat wait()
+		for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if v.Name == '[Taser]' then
+				v:Activate()
+			end
+		end
+	until _G.taser == false
